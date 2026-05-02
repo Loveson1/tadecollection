@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #620a18;
+  --color-accent: #fef4ea;
+
+  --color-light: #ffffff;
+  --color-dark: #121212;
+  --font-family: "Poppins", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-light text-dark  overflow-x-clip;
+  }
+
+  html{@apply overflow-x-hidden scroll-smooth;}
+
+  h1 {
+    @apply text-3xl font-bold lg:text-6xl tracking-tight leading-tight font-bold text-primary;
+  }
+
+  h2 {
+    @apply text-xl font-bold lg:text-4xl tracking-tight leading-tight font-bold text-primary;
+  }
+
+  p {
+    @apply text-lg  my-4  text-primary/70;
+  }
+
+  .link {
+    @apply inline text-accent opacity-60 hover:opacity-90 transition-colors duration-300;
+  }
+}
+
+@layer components {
+  button, .button {
+    @apply inline-block md:px-8 md:py-3 px-4 py-2  text-white bg-primary hover:text-primary hover:border  hover:border-primary border border-accent hover:bg-accent transition-colors duration-500;
+  }
+  img {
+    @apply  w-7 h-7;
+  }
+  .container {
+    @apply mx-auto p-4  md:px-12 md:py-6;
+  }
+}
