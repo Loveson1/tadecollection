@@ -8,7 +8,7 @@ export default function Hero() {
   const [scrolled, setScrolled] = useState(false);
   const phoneNumber = "2348039361942";
   const initialMessage = "Hello TADÉ, I would like to book a fitting session.";
-  const whatsappUrl = `https://wa.me{phoneNumber}?text=${encodeURIComponent(initialMessage)}`;
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(initialMessage)}`;
 
   useEffect(() => {
     const handleScroll = () => {
