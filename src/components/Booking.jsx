@@ -190,6 +190,7 @@ export default function BookingSteps() {
             >
               <img
                 src={steps[currentStep].image}
+                loading="lazy"
                 alt={steps[currentStep].title}
                 className={`w-full h-full object-cover [${steps[currentStep].center}] `}
               />

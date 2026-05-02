@@ -78,6 +78,7 @@ export default function Gallery() {
                   <img
                     src={image.src}
                     alt={image.alt}
+                    loading="lazy"
                     className=" rounded-2xl object-cover w-[160px] h-[260px] md:w-[180px] md:h-[300px]  "
                   />
                 </div>
@@ -97,6 +98,7 @@ export default function Gallery() {
                 src={tademen0}
                 alt="tademen"
                 className="w-200 h-100 object-cover object-[center_30%] z-10"
+                loading="lazy"
               />
               <img
                       src={logo}
@@ -118,6 +120,7 @@ export default function Gallery() {
             <div className="flex-1/2   ]">
               <img
                 src={tademen}
+                loading="lazy"
                 alt="tademen"
                 className="sm:w-1/2 w-full h-[400px] object-cover flex-1 object-[center_20%] ml-auto  "
               />
@@ -166,6 +169,7 @@ export default function Gallery() {
           <div className="flex max-md:flex-col border-y border-primary relative "  data-aos="fade-left">
               <img
                       src={logo}
+                      loading="lazy"
                       alt="hero"
                       className="w-210 h-85 max-sm:w-74 max-sm:h-30 absolute max-md:hidden left-1/2 lg:left-[25%] transform -translate-x-1/2 -translate-y-1/2 top-1/2  z-0  filter invert-[0%] sepia-[60%] saturate-[2000%] hue-rotate-[340deg] brightness-[80%] contrast-[90%]"
                     />
@@ -179,6 +183,7 @@ export default function Gallery() {
             <div className="flex-1 flex max-md:flex-col">
               <img
                 src={tadewomen4}
+                loading="lazy"
                 alt="tademen"
                 className="w-[800px] h-[400px] object-cover object-[center_30%]"
               />

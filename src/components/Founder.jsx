@@ -11,7 +11,7 @@ export default function Founder() {
             </h2></div>
       <div className=" flex justify-center gap-10  max-sm:flex-col">
         <div className="flex-1" data-aos="fade-right">
-          <img src={ceo} alt="Tade Makinwa"  className="w-full  max-h-[600px] h-auto object-cover object-[center_20%]"/>
+          <img src={ceo} alt="Tade Makinwa"  loading="lazy" className="w-full  max-h-[600px] h-auto object-cover object-[center_20%]"/>
         </div>
 
         <div className="flex-1 " data-aos="fade-left">

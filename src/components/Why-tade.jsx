@@ -96,7 +96,8 @@ export default function WhyTade() {
                   <div className="w-full md:w-1/2 h-1/2 md:h-full px-4">
                     <img
                       src={pillar.image}
-                      alt=""
+                      loading="lazy"
+                      alt="whytade"
                       className={`w-full h-full object-cover ${pillar.center}`}
                     />
                   </div>

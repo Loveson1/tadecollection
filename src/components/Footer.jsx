@@ -1,6 +1,6 @@
 import logo from "../assets/icons/tadelogo.png";
 import tadewoman from "../assets/images/tadew4.jpg";
-import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   const address = "Musa Mamman Crescent, Dawaki Abuja"; // Change this to your actual address
@@ -32,15 +32,13 @@ export default function Footer() {
                   contact us
                 </h2>
                 <div className="link">
-                  
                   <a href="tel:08039361942">(+234) 8039361942</a>
                 </div>
-                
+
                 <a href="mailto:tadecollective@gmail.com " className="link">
                   tadecollective@gmail.com
                 </a>
 
-              
                 <div className="link">
                   <a
                     href={googleMapsUrl}
@@ -56,17 +54,21 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer link"
                   >
-                    <FaFacebook className="link"/>
+                    <FaFacebook className="link" />
                   </a>
                   <a
                     href="https://www.instagram.com/tade_makinwa/"
                     target="_blank"
                     rel="noopener noreferrer link"
                   >
-                    <FaInstagram  className="link"/>
+                    <FaInstagram className="link" />
                   </a>
-                  <a href="https://www.tiktok.com/@tade_makinwa" target="_blank" rel="noopener noreferrer link">
-                    <FaTiktok  className="link"/>
+                  <a
+                    href="https://www.tiktok.com/@tade_makinwa"
+                    target="_blank"
+                    rel="noopener noreferrer link"
+                  >
+                    <FaTiktok className="link" />
                   </a>
                 </div>
               </div>
@@ -82,21 +84,24 @@ export default function Footer() {
                   <h2 className="text-sm font-bold tracking-[0.2em] text-accent/80 uppercase mb-4">
                     Company
                   </h2>
-                
-                 
-                      <a href="#hero" className="link">
-                        Home
-                      </a>
-                    
-                    <a href="#brand" className="link">
-                      Brand
-                    </a>
 
-                   
-                      <a href="#about" className="link">
-                        About
-                      </a>
-                      
+                  <a href="#hero" className="link">
+                    Home
+                  </a>
+
+                  <a href="#brand" className="link">
+                    Brand
+                  </a>
+
+                  <a href="#about" className="link">
+                    About
+                  </a>
+                  <a href="#gallery" className="link">
+                    Gallery
+                  </a>
+                  <a href="#booking" className="link">
+                    Booking
+                  </a>
                 </div>
 
                 <div className="text-xs text-accent opacity-60 sm:flex  gap-10">
@@ -111,6 +116,7 @@ export default function Footer() {
                 src={tadewoman}
                 alt="tadewoman"
                 className=" w-[80%] h-full object-cover"
+                loading="lazy"
               />
 
               <a

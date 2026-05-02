@@ -21,6 +21,7 @@ function App() {
       easing: "ease-in-out", // Animation easing
       duration: 1000, // Animation duration in milliseconds
       once: false, // Whether animation should happen only once - while scrolling down
+      distance: "50px", // Distance to move elements when animating
     });
       AOS.refresh(); 
   }, []);
