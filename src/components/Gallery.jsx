@@ -134,7 +134,7 @@ export default function Gallery() {
                 playsInline
                 muted
                 alt="tademen"
-                controls={true}
+            
                 className="w-full h-[400px] object-cover object-[center_0%] flex-1  "
               />
             </div>
@@ -152,7 +152,7 @@ export default function Gallery() {
                 playsInline
                 muted
                 alt="tademen"
-                controls={true}
+            
                 className="w-full sm:h-[50px] sm:h-[400px] object-cover object-[center_0%] flex-1  "
               />
               <div className=" flex-1/2  mt-4 px-4 max-sm:px-4">
