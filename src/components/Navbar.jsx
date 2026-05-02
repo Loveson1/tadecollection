@@ -1,6 +1,7 @@
 import logo from "../assets/icons/tadelogo.png";
 import blacklogo from "../assets/icons/tadeblack.png";
 import menu from "../assets/icons/hamburger.png";
+import cancel from "../assets/icons/cancel.png";
 import { useState, useEffect } from "react";
 
 export default function Hero() {
@@ -76,13 +77,13 @@ export default function Hero() {
           onClick={() => setIsSidebarOpen(false)}
           className="absolute top-8 right-8 text-accent bg-transparent hover:bg-transparent border-none transition-transform "
         >
-          ✕
+        <img src={cancel} alt="Cancel" className="w-6 h-6  filter invert brightness-0" />
         </button>
 
         {/* Centered Links */}
         <div className="flex flex-col gap-8 text-center text-3xl font-medium text-accent">
           <a
-            href="#home"
+            href="#hero"
             onClick={() => setIsSidebarOpen(false)}
             className="hover:text-white transition-colors"
           >

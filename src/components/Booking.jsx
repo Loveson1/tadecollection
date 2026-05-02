@@ -137,7 +137,7 @@ export default function BookingSteps() {
   }, [currentStep]);
 
   return (
-    <div className="bg-accent">
+    <div className="bg-accent" id="booking">
       <div className="py-20 container mx-auto px-10 text-center"  data-aos="fade-in">
         <h2 className="text-sm font-bold tracking-[0.2em] text-primary uppercase mb-4">
           Your Custom Piece, Made Simple

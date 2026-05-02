@@ -5,7 +5,7 @@ import tademen2 from "../assets/images/tadem4.avif";
 import tademen3 from "../assets/images/tadem5.avif";
 import tadewomen1 from "../assets/images/tadeW.avif";
 import tadewomen2 from "../assets/images/tadew2.avif";
-import tadewomen3 from "../assets/images/tadeW5.jpg";
+import tadewomen3 from "../assets/images/tadew5.jpg";
 import tadewomen4 from "../assets/images/tadwomen6.jpg";
 import tadewomen5 from "../assets/images/tadew7.jpg";
 import tadewomenvid from "../assets/video/tadewvid.mp4";
@@ -55,7 +55,7 @@ export default function Gallery() {
 
   return (
     <>
-      <div className=" bg-accent">
+      <div className=" bg-accent" id="gallery">
         <div className="container  pb-30">
           <div className="py-14 container mx-auto px-10 text-center" data-aos="fade-in">
             <h2 className="text-sm font-bold tracking-[0.2em] text-primary uppercase mb-4">
